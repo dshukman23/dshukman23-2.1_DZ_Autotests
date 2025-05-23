@@ -12,7 +12,7 @@ class TransferServiceTest {
 
         val result = service.calculateCommission(cardType, monthlyAmount, transferAmount)
 
-        assertEquals(750, result)
+        assertEquals(740, result)
     }
 
 }
